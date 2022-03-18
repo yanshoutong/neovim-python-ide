@@ -1,0 +1,9 @@
+{
+    "python.venvPath": "/opt/homebrew/Caskroom/miniforge/base/envs/ltv",
+    "python.pythonPath":" /opt/homebrew/Caskroom/miniforge/base/envs/ltv/bin/python3",
+    "diagnostic.errorSign":" ✖",
+    "diagnostic.warningSign": "!",
+    "diagnostic.hintSign":" ▶",
+    "diagnostic.virtualText": true,
+    "diagnostic.locationlistUpdate": true
+}

@@ -15,6 +15,7 @@ I used to use nvim to install node.js
 
 ```sh
 $ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+$ nvm install node
 $ source ~/.bashrc
 $ nvm install node
 ```
@@ -48,6 +49,24 @@ after finishing `neovim`, `node`, `Plug` and `conda virutalenv` sections, launch
 $ nvim
 ```
 and enter into `command line` by issuing `:PlugInstall` to install all needed plugins.
+
+to configure `coc-pyright` plugin, follow the below:
+
+```sh
+$ cp config/coc/coc-settings.json ~/.config/coc/
+$ cat ~/.config/coc/coc-settings.json
+{
+    "python.venvPath": "/opt/homebrew/Caskroom/miniforge/base/envs/ltv",
+    "python.pythonPath":" /opt/homebrew/Caskroom/miniforge/base/envs/ltv/bin/python3",
+    "diagnostic.errorSign":" ✖",
+    "diagnostic.warningSign": "!",
+    "diagnostic.hintSign":" ▶",
+    "diagnostic.virtualText": true,
+    "diagnostic.locationlistUpdate": true
+}
+```
+
+
 
 
 
